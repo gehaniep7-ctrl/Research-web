@@ -18,7 +18,3 @@ window.addEventListener("scroll", () => {
   });
 });
 
-document.querySelector("form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  alert("Thank you! Your message has been recorded for demo purposes.");
-});
